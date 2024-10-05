@@ -1,8 +1,3 @@
-# Este projeto trata-se de um desafio da Incode Tech Scool
-# Nome do projeoto: Resumo financeiro
-# O que ele faz ? Bom o código em questão tem a intenção de receber dados do usuário e em seguida cacular o total da Receita e Despesas consequente calcular o liquido
-# O projeto serve para auxiliar no plano de contas de uma pessoa comum a ter controle sobre seus gastos.  # Resumo Financeiro
-
 ## Descrição do Projeto
 
 Este projeto é um desafio da Incode Tech School. O objetivo é desenvolver uma aplicação que ajuda os usuários a gerenciar suas finanças pessoais.

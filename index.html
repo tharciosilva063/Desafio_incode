@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incode Teche School - HTML + CSS</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .rodape{
+            width: 100%; 
+            background: black; 
+            color: greenyellow; 
+            height: 5rem;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .area{
+            background: rgb(167, 167, 167);
+            width: 20rem;
+            margin-top: 2rem;
+            box-shadow: 5px 5px 15px rgba(172, 255, 47, 0.59);
+
+            margin: 2rem;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: greenyellow;
+        }
+        a:hover{
+            background: black;
+        }
+        img{
+            width: 180px;
+        }
+        li{
+            margin: .5rem;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="rodape">
+        <h1 style="letter-spacing: 2px;">Incode Tech School - HTML + CSS</h1>
+    </div>
+
+    <div style="width: 100%; display: flex; justify-content: center;">
+        <div class="area">
+            <h2 style="text-align: center; letter-spacing: 2px;">Objetivo do site</h2>
+            <p style="font-size: 1.1rem; margin-top: 10px;">O objetivo deste site é apresentar um desafio da <span style="color: greenyellow;">Incode Tech School</span>, com a finalidade de avaliar o nível de conhecimento adquirido sobre os temas abordados em aula. Além do conteúdo discutido em sala, busquei aprofundar meus estudos em HTML e CSS através de outras plataformas, como o site <a href="https://www.w3schools.com/html/default.asp">www.w3schools</a>. Acredito que não devemos nos limitar apenas ao que é ensinado em aula, pois o campo é vasto e há sempre mais a aprender.
+            </p>
+            <div style="text-align: center; margin-top: 10px;">
+                <img src="img/img-fundo.png">
+            </div>
+        </div>
+
+        <div class="area">
+            <h2 style="text-align: center; letter-spacing: 2px;">Sobre Mim</h2>
+            <div style="text-align: center; margin-top: 10px;">
+                <img src="img/perfil.jpg">
+            </div>
+            <h3>Informação Pessoal</h3>
+            <ul>
+                <li>Nome: Tharcio Silva</li>
+                <li>Profissão: Analista de Superte Tecnico Nivel 2</li>
+                <li>Empresa: Solução Inforout</li>
+            </ul>
+            <h3>Habilidades</h3>
+            <ul>
+                <li><strong>Linguagem SQL</strong> (Básico): Criação de consultas, manipulação de dados, e otimização de queries.</li>
+                <li><strong>PHP</strong> (Intermediário): Desenvolvimento de aplicações web dinâmicas.</li>
+                <li><strong>JavaScript</strong> (Intermediário): Manipulação do DOM, integração de bibliotecas e frameworks como jQuery.</li>
+                <li><strong>Python</strong> (Intermediário): Desenvolvimento de scripts para automação e análise de dados.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

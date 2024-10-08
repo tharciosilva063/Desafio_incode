@@ -1,4 +1,6 @@
-## Descrição do Projeto
+## Descrição do Projeto HTML
+O objetivo desta pagina HTML é apresentar um desafio da Incode Tech School, com a finalidade de avaliar o nível de conhecimento adquirido sobre os temas abordados em aula.
+## Descrição do Projeto Python
 
 Este projeto é um desafio da Incode Tech School. O objetivo é desenvolver uma aplicação que ajuda os usuários a gerenciar suas finanças pessoais.
 

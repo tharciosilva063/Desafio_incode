@@ -1,86 +1,164 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Incode Teche School - HTML + CSS</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
-        .rodape{
-            width: 100%; 
-            background: black; 
-            color: greenyellow; 
-            height: 5rem;
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML - Incod Tech School</title>
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .area{
-            background: rgb(167, 167, 167);
-            width: 20rem;
-            margin-top: 2rem;
-            box-shadow: 5px 5px 15px rgba(172, 255, 47, 0.59);
+	<style type="text/css">
+		body, html{
+			height: 100%;
+			margin: 0;
+			display: felx;
+			justify-content: center;
+			align-items: center;
+			font-family: "Arial", "Helvetica", sans-serif;
+			background: #386641;
+		}
+		.area-principal{
+			width: 40rem;
+			margin: 0 auto;
+			padding: 0.9rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
-            margin: 2rem;
-            padding: 1rem;
-            border-radius: 10px;
-        }
-        a{
-            text-decoration: none;
-            color: greenyellow;
-        }
-        a:hover{
-            background: black;
-        }
-        img{
-            width: 180px;
-        }
-        li{
-            margin: .5rem;
-        }
-        h3{
-            text-align: center;
-        }
-    </style>
+			background: #c7f9cc;
+		}
+		.area-info{
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			margin-bottom: 10px;
+		}
+		label{
+			width: 70px;
+		}
+		input{
+			width: 300px;
+		}
+		input,select, button{
+			margin-top: .5rem;
+		}
+		fieldset{
+			background: #38a3a5;
+			border-radius: 10px;
+			border-color: #38a3a5;
+		}
+		a{
+			text-decoration: none;
+		}
+		span, a:hover{
+			font-weight: bolder;
+			color: rgba(42, 151, 24, 1);
+		}
+		footer{
+			margin-top: 10px;
+			text-align: center;
+		}
+		footer a{
+			padding: 5px;
+		}
+	</style>
+
 </head>
 <body>
-    <div class="rodape">
-        <h1 style="letter-spacing: 2px;">Incode Tech School - HTML + CSS</h1>
-    </div>
+	<div class="area-principal">
+		<div>
+			<!-- inicio Cabeçalho e barra de navegação -->
+			<header>
+				<h1>Desafio de Habilidade</h1>
+				<nav>
+					<ul>
+						<li> <a href="">Home</a> </li>
+						<li> <a href="">Sobre</a> </li>
+						<li> <a href="">Habilidade</a> </li>
+						<li> <a href="">Contato</a> </li>
+					</ul>
+				</nav>
+			</header>
+			<!-- fim Cabeçalho e barra de navegação -->
 
-    <div style="width: 100%; display: flex; justify-content: center;">
-        <div class="area">
-            <h2 style="text-align: center; letter-spacing: 2px;">Objetivo do site</h2>
-            <p style="font-size: 1.1rem; margin-top: 10px;">O objetivo deste site é apresentar um desafio da <span style="color: greenyellow;">Incode Tech School</span>, com a finalidade de avaliar o nível de conhecimento adquirido sobre os temas abordados em aula. Além do conteúdo discutido em sala, busquei aprofundar meus estudos em HTML e CSS através de outras plataformas, como o site <a href="https://www.w3schools.com/html/default.asp">www.w3schools</a>. Acredito que não devemos nos limitar apenas ao que é ensinado em aula, pois o campo é vasto e há sempre mais a aprender.
-            </p>
-            <div style="text-align: center; margin-top: 10px;">
-                <img src="img/img-fundo.png">
-            </div>
-        </div>
+			<main>
+				<section id="home">
+					<h2>Minhas Habilidades em HTML e CSS</h2>
+					<p>Este site faz parte de um desafio proposto pela <span>Incode Tech School</span> . Ao longo do desenvolvimento, você poderá acompanhar a evolução da página conforme os temas abordados nas aulas. Além disso, irei explorar a documentação oficial de HTML e CSS, indo além do conteúdo discutido em aula. Por isso, espere encontrar recursos e funcionalidades que talvez não tenham sido mencionados no curso.</p>
+				</section>
 
-        <div class="area">
-            <h2 style="text-align: center; letter-spacing: 2px;">Sobre Mim</h2>
-            <div style="text-align: center; margin-top: 10px;">
-                <img src="img/perfil.jpg">
-            </div>
-            <h3>Informação Pessoal</h3>
-            <ul>
-                <li>Nome: Tharcio Silva</li>
-                <li>Profissão: Analista de Superte Tecnico Nivel 2</li>
-                <li>Empresa: Solução Inforout</li>
-            </ul>
-            <h3>Habilidades</h3>
-            <ul>
-                <li><strong>Linguagem SQL</strong> (Básico): Criação de consultas, manipulação de dados, e otimização de queries.</li>
-                <li><strong>PHP</strong> (Intermediário): Desenvolvimento de aplicações web dinâmicas.</li>
-                <li><strong>JavaScript</strong> (Intermediário): Manipulação do DOM, integração de bibliotecas e frameworks como jQuery.</li>
-                <li><strong>Python</strong> (Intermediário): Desenvolvimento de scripts para automação e análise de dados.</li>
-            </ul>
-        </div>
-    </div>
+				<section id="sobre">
+					<h2>Sobre</h2>
+					<p>Este desafio tem como objetivo demonstrar minhas habilidades no desenvolvimento de páginas web utilizando XAMPP, HTML e CSS.</p>
+				</section>
+
+				<!-- inicio Habiliades / interesse -->
+				<section id="habilidade">
+					<h2>Habilidades</h2>
+					<ol>
+						<li><span>XAMPP</span></li>
+						<li><span>SQL</span></li>
+						<li><span>PHP</span></li>
+						<li><span>JavaScript</span></li>
+						<li><span>Python</span></li>
+						<li><span>HTML</span></li>
+						<li><span>CSS</span></li>
+					</ol>
+					<h2>Meu Interesse</h2>
+					<ul>
+						<li><span>Desenvolvimento Front-End: </span>Criação de interfaces com HTML, CSS e Bootstrap, focando na experiência do usuário.
+						</li>
+						<li><span>Análise de Dados e Automação: </span>Utilização de Python e SQL para processar dados e automatizar processos repetitivos.
+						</li>
+						<li><span>Desenvolvimento de Sistemas Web com PHP: </span>Especialização em sistemas como CMS, e-commerce, e plataformas personalizadas.
+						</li>
+						<li><span>DevOps e Infraestrutura Web: </span>Gerenciamento de infraestrutura, servidores e automação de deploys com XAMPP.
+						</li>
+					</ul>
+				</section>
+				<!-- fim Habiliades / interesse -->
+
+				<section id="Contato">
+					<h2>Contato</h2>
+					<form>
+						<fieldset>
+							<h2>Informação Pessoal</h2>
+							<div>
+								<div class="area-info">
+									<label for="nome">Nome: </label>
+									<input type="text" name="nome" id="nome">
+								</div>
+								<div class="area-info">
+									<label for="nome">Telefone: </label>
+									<input type="text" name="telefone" id="telefone">
+								</div>
+								<div class="area-info">
+									<label for="nome">Email: </label>
+									<input type="text" name="email" id="email">
+								</div>
+								<div class="area-info">
+									<label>Pessoa: </label>
+									<select>
+										<option>Fisica</option>
+										<option>Juridica</option>
+									</select>
+								</div>
+								<div>
+									<button type="button" onclick="alert('Dados Enviado ! Aguarde o contato...')">Enviar</button>
+								</div>
+							</div>					
+						</fieldset>
+					</form>
+				</section>
+			</main>
+			<footer>
+				<a href="https://www.linkedin.com/in/tharcio-silva-48a10932a/">Linkedin
+				</a> |
+				<a href="https://github.com/tharciosilva063">GitHub
+				</a> |
+				<a href="https://wa.me/559888034402?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços.">WhatsApp
+				</a> |
+				<a href="">E-mail: tharcio.silva.markes@gmail.com</a>
+			</footer>
+		</div>
+	</div>
 </body>
 </html>
